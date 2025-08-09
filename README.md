@@ -1,31 +1,31 @@
 # Text-to-Voice Converter
 
-A simple yet powerful web app that converts written text into speech using the browser's built-in SpeechSynthesis API. Users can type or paste any text, click a button, and instantly hear it read aloud.
+A simple yet powerful web app that converts written text into speech using the browser's built-in SpeechSynthesis API. Features a clean dark theme interface that's easy on the eyes and works seamlessly across all devices.
 
 **Live Demo:** [https://pavithraadeenadayalan.github.io/TextToVoiceConvertor/](https://pavithraadeenadayalan.github.io/TextToVoiceConvertor/)
 
 ## Features
 
-- **Clean and Responsive Design** – Works seamlessly across all devices
+- **Dark Theme Design** – Easy on the eyes with excellent contrast for better readability
+- **Fully Responsive** – Works seamlessly across desktop, tablet, and mobile devices
 - **Native Web Speech API** – Uses browser's built-in text-to-speech conversion
 - **Multiple Voices** – Supports different voices (browser-dependent)
-- **Language Options** – Adjustable language and voice options via code customization
+- **Real-time Feedback** – Visual status indicator shows when speech is active
 - **Instant Playback** – Speech playback without any backend required
 - **Lightweight** – Fast to load and minimal resource usage
 
 ## Tech Stack
 
-- **HTML5** – Application structure
-- **CSS3** – Clean interface styling
-- **JavaScript** – SpeechSynthesis API integration
+- **HTML5** – Application structure and semantic markup
+- **CSS3** – Modern dark theme styling with responsive design
+- **JavaScript** – SpeechSynthesis API integration and user interaction handling
 
 ## Usage
 
 1. **Open the live demo link in your browser**
-2. **Type or paste the text** you want to convert to speech
-3. **Click the "Speak" button** to hear the audio
-4. **Customize language:** Modify `utterance.lang` in `script.js` to change the language/accent
-5. **Select voice:** Modify `utterance.voice` to select a specific voice from `synth.getVoices()`
+2. **Type or paste the text** you want to convert to speech in the dark-themed text area
+3. **Click the "Speak" button** to hear the audio - button will show "Speaking..." while active
+4. **Visual feedback** - Green status indicator appears during speech playback
 
 ## Project Structure
 
@@ -40,10 +40,19 @@ TextToVoiceConvertor/
 
 The application leverages the browser's native **SpeechSynthesis API** to convert text to speech:
 
-- Text input is captured from the user interface
+- Clean, dark-themed interface provides excellent readability
+- Text input is captured from the user interface with real-time visual feedback
 - JavaScript creates a `SpeechSynthesisUtterance` object with the input text
+- Visual status indicators show when speech is active
 - The browser's speech synthesis engine processes and speaks the text
 - No server-side processing or external APIs required
+
+## Design Features
+
+- **Dark Theme** – Reduces eye strain with a professional dark color scheme
+- **High Contrast** – Excellent readability with light text on dark backgrounds
+- **Modern UI** – Clean, minimalist interface focusing on functionality
+- **Responsive Layout** – Adapts perfectly to any screen size
 
 ## Browser Compatibility
 
