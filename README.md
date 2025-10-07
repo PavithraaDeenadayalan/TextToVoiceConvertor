@@ -81,7 +81,7 @@ Contributions are welcome! Feel free to submit pull requests or open issues for 
 
 ## Author
 
-**Pavithraa Deenadayalan**  
+**Pavithraa Deenadayalan :)**  
 GitHub: [https://github.com/pavithraadeenadayalan](https://github.com/pavithraadeenadayalan)
 
 ---
